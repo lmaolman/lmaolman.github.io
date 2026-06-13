@@ -37,5 +37,21 @@
     <h3>Arduino</h3>
     <a href="/DMID/code/mouthpiece_arduino.ino" download>Download Arduino Code File</a>
 
+    <h2>Instrument Behavior</h2>
+
+    <p>The instrument's hardware is rather simple. It consists of 3 buttons and an ultrasonic distance sensor, mounted to two gloves. The Arduino Uno 
+        microcontroller is mounted the the left arm, which is then connected to the computer. A contact microphone (or any microphone which will 
+        minimally feedback) is mounted to any instrumnet, preferrably one which can be muted to limit the natural acoustic emission of it's sound.</p>
+
+    <p>The patch consists of three fundamental effect subpatches. The first is a feedback loop, which when triggered (button 1), takes a small recording of 
+        the sound currently happening, then at certain intervals determined by the distance sensor reading, outputs that sound again at a lower volume before
+        feeding that back into the loop, to be played again. This will cause a disintegration of the characteristics of the sound. The second is a tremolo
+        patch, which when activated (button 1) performs a periodic amplitude adjustment, again the speed of which determined by the distance sensor. The effect 
+        is one of tremolo, or "warbling" of the sound. The final effect is a series of spectral freeze patches. These, when triggered (button 1), store the 
+        sound currently being input by the micropone, then can be played back by a different button (button 2). These are stacked through various buffers 
+        (technically jit matrices), and can be played back simaltanously. The other effects can also be used on these stored spectral freeze sounds too, not 
+        just the raw microphone input. The different effects are changed through a one second press of the remaining button (button 3). The distance sensor data is also smoothed via EMA 
+        smoothing, then limited to a max value of 50.</p>
+
 </body>
 </html>
