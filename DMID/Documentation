@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouthpiece</title>
+</head>
+<body>
+
+    <h1>- Mouthpiece -</h1>
+
+    <h2>Conception and Inspiration</h2>
+    
+    <p>My background is, first and foremost, being a composer of contemporary concert music. Music which is meant to be listened to in-concert, 
+        usually in a concert hall, performed by live musicians. There is an inherent power dynamic which must be navigated by anyone in this field. 
+        As a composer, at least in the most traditional sense of the word, you are writing a piece of music, for which you expect musicians to read, 
+        practice, and perform. The composer (again, traditional sense) does not create a single sound which the audience hears. Like the coach of a 
+        football team, the composer often gets much credit despite not taking a single metaphorical tackle.</p>
+
+    <p>So I wanted to explore this idea of leeching off of someone’s medium. As a composer, I leech off of instrumentalists and performers, so how 
+        could I preserve this idea, this commentary? I figured, what if this parasitic relationship was at the forefront, where the audience could see 
+        it happening right in front of their eyes. That was the fundamental idea behind Mouthpiece. A technically simple sonic manipulation device, 
+        designed not to create sound on its own, but become the mouthpiece through which others’ sound is appropriated.</p>
+
+    <p>A glove-based system seemed most intuitive to me, from a pure expression and theatrical perspective. There is of course a lot of precedent as 
+        well, see <a href="https://mimugloves.com/" target="_blank">Imogen Heap</a> for the biggest inspiration. But honestly, the project didn’t really 
+        have any specific project or system in mind, just the aforementioned artistic goal.</p>
+
+    <h2>Technical Specifications</h2>
+
+    <h3>Circuit</h3>
+    <!-- Replace "circuit_diagram.jpg" with your actual image file path -->
+    <img src="circuit_diagram.jpg" alt="Circuit diagram for Mouthpiece">
+
+    <h3>Max Patch</h3>
+    <!-- Replace "mouthpiece_patch.zip" with your actual file path -->
+    <a href="mouthpiece_maxpat.zip" download>Download Max Patch File</a>
+
+    <h3>Arduino</h3>
+    <!-- Replace "mouthpiece_code.ino" with your actual file path -->
+    <a href="mouthpiece_arduino.ino" download>Download Arduino Code File</a>
+
+</body>
+</html>
